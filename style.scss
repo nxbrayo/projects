@@ -1,0 +1,88 @@
+div.links{
+    height: 100px;
+    width: 200px;
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        li{
+            a{
+                color: rgb(35, 36, 37);
+                font-size: 30px;
+                display: flex;
+                align-items: center;
+                padding: right 10px;
+                text-decoration: none;
+                i{
+                    margin-left: 10px;
+                }
+                span.i_text{
+                    padding-left: 5px;
+                    margin-right: 20px;
+                    color: inherit;
+                }
+            }
+            a:active {
+                text-decoration: none;
+                color: rgb(218, 35, 14) ;
+            }
+            a:hover {
+                text-decoration: none;
+                color: rgb(17, 114, 225);
+            }
+        }
+    }
+    
+}
+
+
+
+div.button {
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    margin: 10px;
+    justify-content: space-between;
+
+    div.search {
+        display: flex;
+        align-items: center;
+
+        span.material-symbols-outlined {
+            align-items: center;
+            height: 40px;
+            width: 20px;
+            padding-left: 0;
+            padding: 5px;
+            margin: 5px;
+            color: #6f2e4b;
+        }
+
+        span.outer-text {
+            align-items: left;
+            text-align: left;
+            font-size: 20px;
+            font-weight: 400;
+            align-items: center;
+            height: 40px;
+            width: 150px;
+            font-size: 24px;
+            color: #6f2e4b;
+            font-family: 'Ysabeau Infant', sans-serif;
+            padding-left: 0;
+            padding: 5px 10px 10px 10px;
+            margin-left: 0;
+            margin: 0 10px 10px 10px;
+        }
+    }
+}
+
+div.icon_test {
+    display: flex;
+    span.material-symbols-outlined {
+        font-size: 30px;
+        color: #6f2e4b;
+        justify-content: space-between;
+    }
+}
