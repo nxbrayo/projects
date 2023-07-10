@@ -1,3 +1,30 @@
+div.links {
+  height: 100px;
+  width: 200px; }
+  div.links ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; }
+    div.links ul li a {
+      color: #232425;
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      padding: right 10px;
+      text-decoration: none; }
+      div.links ul li a i {
+        margin-left: 10px; }
+      div.links ul li a span.i_text {
+        padding-left: 5px;
+        margin-right: 20px;
+        color: inherit; }
+    div.links ul li a:active {
+      text-decoration: none;
+      color: #da230e; }
+    div.links ul li a:hover {
+      text-decoration: none;
+      color: #1172e1; }
+
 div.button {
   border: 1px solid gray;
   border-radius: 10px;
@@ -31,5 +58,12 @@ div.button {
       padding: 5px 10px 10px 10px;
       margin-left: 0;
       margin: 0 10px 10px 10px; }
+
+div.icon_test {
+  display: flex; }
+  div.icon_test span.material-symbols-outlined {
+    font-size: 30px;
+    color: #6f2e4b;
+    justify-content: space-between; }
 
 /*# sourceMappingURL=style.css.map */
